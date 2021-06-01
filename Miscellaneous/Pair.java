@@ -1,7 +1,6 @@
 import java.util.*;
 class Main {
   public static void main(String[] args) {
-    //Reverse String using recursion
 
     Scanner sc=new Scanner(System.in);
     int[] arr=new int[5];
