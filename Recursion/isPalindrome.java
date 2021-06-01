@@ -1,7 +1,6 @@
 import java.util.*;
 class isPalindrome {
   public static void main(String[] args) {
-    //Reverse String using recursion
 
     Scanner sc=new Scanner(System.in);
     String sna=new String();
