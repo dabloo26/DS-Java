@@ -8,8 +8,8 @@ class DecimalToBinary {
     System.out.print(obj.dectobin(n));
   }
   int dectobin(int n){
-    if(n==1)
-    return 1;
+    if(n==0)
+    return 0;
 
     return dectobin(n/2)*10+(n%2);
     }
