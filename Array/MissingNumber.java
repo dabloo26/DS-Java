@@ -2,6 +2,7 @@ import java.util.*;
 class MissingNumber {
   public static void main(String[] args) {
     //assuming only one number is missing
+    //Given that the array is continuous and only one number missing (continuous as 1,2,3,4.....95,96,97,98,99 etc.)
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     int[] arr=new int[n];
