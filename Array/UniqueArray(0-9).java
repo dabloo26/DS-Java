@@ -2,6 +2,7 @@ import java.util.*;
 class Main {
   public static void main(String[] args) {
     //unique Array
+    //Assuming numbers 1- 9 are inputted
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     int[] arr=new int[n];
