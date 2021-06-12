@@ -39,5 +39,13 @@ class Main {
 
     //better solution sort in O(N log N)
     // loop till N check if value is same or not.
+    
+    
+    
+    // much better since we know that in permutation elements are same
+    //add all the elemnts of both array
+    //multiply all elements of both the array
+    //compare both added and multiplied values if same return true
+    //O(N)
   }
 }
