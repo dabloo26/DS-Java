@@ -1,6 +1,6 @@
 public class Link{
   Node head;
-
+//inserts at the beginning
   public void add(int data){
     Node node=new Node();
     node.data=data;
@@ -13,6 +13,7 @@ public class Link{
         n=n.next;
       }
       n.next=node;
+      
     }
         
   }
