@@ -1,4 +1,5 @@
-  public void deleteatlocation(int p){
+//wont work if the location passed is greater than size of link list
+public void deleteatlocation(int p){
     Node n=head;
     Node temp=head;
     for(int i=1;i<p;i++){
