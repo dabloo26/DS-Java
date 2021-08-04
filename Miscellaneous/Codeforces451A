@@ -1,0 +1,24 @@
+//<a href="https://codeforces.com/problemset/problem/451/A">451A</a>
+
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      int m=sc.nextInt();
+      int c=0;
+      int akshat=0;
+      while(m!=0 && n!=0){
+          m--;
+          n--;
+          if(c==0){
+              c=1;
+          }
+          else c=0;
+      }
+      if(c==1)
+      System.out.println("Akshat");
+      else
+      System.out.println("Malvika");
+    }
+}
